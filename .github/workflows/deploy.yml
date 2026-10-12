@@ -12,7 +12,7 @@ pages: write
 id-token: write
 
 concurrency:
-group: pages
+group: github-pages
 cancel-in-progress: true
 
 jobs:
@@ -33,10 +33,10 @@ steps:
   - name: Install dependencies
     run: npm ci
 
-  - name: Build portfolio
+  - name: Build React application
     run: npm run build
 
-  - name: Upload website artifact
+  - name: Upload built website
     uses: actions/upload-pages-artifact@v3
     with:
       path: ./dist
