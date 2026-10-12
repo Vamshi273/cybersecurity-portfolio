@@ -21,38 +21,29 @@ icon: ( <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"> <path d
 },
 {
 label: "LinkedIn",
-href: "https://www.linkedin.com/in/vamshi-a-n-580402373",
-icon: ( <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"> <path d="M20.45 2H3.55C2.69 2 2 2.68 2 3.52v16.96c0 .84.69 1.52 1.55 1.52h16.9c.86 0 1.55-.68 1.55-1.52V3.52c0-.84-.69-1.52-1.55-1.52ZM7.93 18.45H4.98V9h2.95v9.45ZM6.45 7.71a1.71 1.71 0 1 1 0-3.42 1.71 1.71 0 0 1 0 3.42Zm12 10.74H15.5v-4.6c0-1.1-.02-2.51-1.53-2.51-1.53 0-1.76 1.2-1.76 2.43v4.68H9.26V9h2.83v1.29h.04a3.1 3.1 0 0 1 2<|fim_middle|>
+href: "https://www.linkedin.com/in/vamshi-a-n-580402373/",
+icon: ( <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"> <path d="M20.45 2H3.55C2.69 2 2 2.68 2 3.52v16.96c0 .84.69 1.52 1.55 1.52h16.9c.86 0 1.55-.68 1.55-1.52V3.52c0-.84-.69-1.52-1.55-1.52ZM7.93 18.45H4.98V9h2.95v9.45ZM6.45 7.71a1.71 1.71 0 1 1 0-3.42 1.71 1.71 0 0 1 0 3.42Zm12 10.74H15.5v-4.6c0-1.1-.02-2.51-1.53-2.51-1.53 0-1.76 1.2-1.76 2.43v4.68H9.26V9h2.83v1.29h.04a3.1 3.1 0 0 1 2.79-1.53c2.98 0 3.53 1.96 3.53 4.51v5.18Z" /> </svg>
+),
+},
+];
 
-return ( <footer className="relative isolate overflow-hidden border-t border-white/[0.08] bg-[#05070a] px-5 py-14 text-white sm:px-8 md:px-12 md:py-20">
+return ( <footer className="relative isolate overflow-hidden border-t border-white/10 bg-[#05070a] px-5 py-14 text-white sm:px-8 md:px-12 md:py-20">
+{/* Ambient background */} <div className="pointer-events-none absolute inset-0 -z-10"> <div className="absolute bottom-0 left-1/4 h-64 w-64 rounded-full bg-blue-500/[0.07] blur-[120px]" /> <div className="absolute right-0 top-0 h-64 w-64 rounded-full bg-emerald-500/[0.05] blur-[120px]" />
+<div
+className="absolute inset-0 opacity-[0.07]"
+style={{
+backgroundImage:
+"linear-gradient(rgba(148,163,184,0.15) 1px, transparent 1px), linear-gradient(90deg, rgba(148,163,184,0.15) 1px, transparent 1px)",
+backgroundSize: "48px 48px",
+}}
+/> </div>
 
-
-  {/* Ambient background */}
-
-  <div className="pointer-events-none absolute inset-0 -z-10">
-    <div className="absolute bottom-0 left-1/4 h-64 w-64 rounded-full bg-blue-500/[0.07] blur-[120px]" />
-    <div className="absolute right-0 top-0 h-64 w-64 rounded-full bg-emerald-500/[0.05] blur-[120px]" />
-
-    <div
-      className="absolute inset-0 opacity-[0.07]"
-      style={{
-        backgroundImage:
-          "linear-gradient(rgba(148,163,184,0.15) 1px, transparent 1px), linear-gradient(90deg, rgba(148,163,184,0.15) 1px, transparent 1px)",
-        backgroundSize: "48px 48px",
-      }}
-    />
-  </div>
 
   <div className="mx-auto max-w-7xl">
-
     {/* Main footer content */}
-
-    <div className="grid gap-12 border-b border-white/[0.08] pb-12 md:grid-cols-12 md:gap-8 md:pb-16">
-
+    <div className="grid gap-12 border-b border-white/10 pb-12 md:grid-cols-12 md:gap-8 md:pb-16">
       {/* Brand */}
-
       <div className="space-y-6 md:col-span-5">
-
         <a
           href="#home"
           aria-label="Return to homepage"
@@ -84,7 +75,6 @@ return ( <footer className="relative isolate overflow-hidden border-t border-whi
               Vamshi<span className="text-blue-400"> A N</span>
               <span className="text-emerald-400">.</span>
             </span>
-
             <span className="font-mono text-[9px] tracking-[0.22em] text-slate-500">
               SECURITY PORTFOLIO
             </span>
@@ -92,8 +82,8 @@ return ( <footer className="relative isolate overflow-hidden border-t border-whi
         </a>
 
         <p className="max-w-sm text-sm leading-7 text-slate-400">
-          Exploring cybersecurity, investigating threats, and
-          building practical skills to create a safer digital world.
+          Exploring cybersecurity, investigating threats, and building
+          practical skills to create a safer digital world.
         </p>
 
         <div className="inline-flex items-center gap-2 rounded-full border border-emerald-400/15 bg-emerald-400/[0.04] px-3 py-2">
@@ -101,18 +91,14 @@ return ( <footer className="relative isolate overflow-hidden border-t border-whi
             <span className="absolute h-full w-full animate-ping rounded-full bg-emerald-400 opacity-50" />
             <span className="relative h-2 w-2 rounded-full bg-emerald-400" />
           </span>
-
           <span className="font-mono text-[10px] tracking-wider text-emerald-300">
             OPEN TO OPPORTUNITIES
           </span>
         </div>
-
       </div>
 
       {/* Navigation */}
-
       <div className="md:col-span-3">
-
         <h3 className="mb-6 font-mono text-xs tracking-[0.2em] text-slate-500">
           {"// NAVIGATION"}
         </h3>
@@ -132,24 +118,20 @@ return ( <footer className="relative isolate overflow-hidden border-t border-whi
             </a>
           ))}
         </nav>
-
       </div>
 
       {/* Social connections */}
-
       <div className="md:col-span-4">
-
         <h3 className="mb-6 font-mono text-xs tracking-[0.2em] text-slate-500">
           {"// CONNECT"}
         </h3>
 
         <p className="mb-6 text-sm leading-7 text-slate-400">
-          Interested in cybersecurity, security research, or
-          collaborating on technical projects? Let's connect.
+          Interested in cybersecurity, security research, or collaborating
+          on technical projects? Let's connect.
         </p>
 
         <div className="flex flex-wrap gap-3">
-
           {socials.map((social) => (
             <a
               key={social.label}
@@ -162,25 +144,18 @@ return ( <footer className="relative isolate overflow-hidden border-t border-whi
               <span className="h-4 w-4 transition-transform duration-300 group-hover:scale-110">
                 {social.icon}
               </span>
-
               {social.label}
-
               <span className="text-xs text-slate-600 transition-colors group-hover:text-blue-400">
                 ↗
               </span>
             </a>
           ))}
-
         </div>
-
       </div>
-
     </div>
 
     {/* Bottom bar */}
-
     <div className="flex flex-col gap-5 pt-7 sm:flex-row sm:items-center sm:justify-between">
-
       <p className="text-xs leading-6 text-slate-500">
         © {currentYear} Vamshi. All rights reserved.
       </p>
@@ -190,7 +165,6 @@ return ( <footer className="relative isolate overflow-hidden border-t border-whi
         className="group inline-flex items-center gap-2 self-start font-mono text-[10px] tracking-widest text-slate-500 transition-colors hover:text-blue-300 sm:self-auto"
       >
         BACK TO TOP
-
         <span className="transition-transform duration-300 group-hover:-translate-y-1">
           ↑
         </span>
@@ -199,9 +173,7 @@ return ( <footer className="relative isolate overflow-hidden border-t border-whi
       <p className="font-mono text-[10px] tracking-wider text-slate-600">
         DESIGNED WITH PRECISION.
       </p>
-
     </div>
-
   </div>
 </footer>
 
