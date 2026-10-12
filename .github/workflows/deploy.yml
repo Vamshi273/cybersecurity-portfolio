@@ -1,4 +1,4 @@
-name: Deploy Portfolio to GitHub Pages
+name: Deploy React Portfolio to GitHub Pages
 
 on:
   push:
